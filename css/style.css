@@ -1,0 +1,230 @@
+* {
+    font-family: calibri, sans-serif;
+}
+.navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.logo img
+{
+  width:30px;
+}
+li.search, input {
+    width: 1500px;
+    flex-grow: 1;
+    overflow-x: hidden;
+    border-radius: 4px;
+}
+input {
+    width: 100%;
+    background-color: #dfdfdf;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+}
+input[placeholder="Search"] {
+    font-size: 16px;
+    color: #9c9b9b;
+    font-weight: 700;
+}
+li {
+    margin: auto 20px;
+    justify-content: flex-end;
+}
+i.fa {
+    font-size: 28px;
+    color: #9c9b9b;
+}
+
+#suggestions {
+	display: block;
+	margin:0 auto;
+	position: relative;
+	text-align: center;
+}
+
+
+#suggest-01{
+	background-image:url('../assets/imgs/background/background01.jpg');
+	background-size:cover;
+
+}
+ #suggest-02{
+	background-image:url('../assets/imgs/background/background02.jpg');
+	background-size:cover;
+}
+#suggest-03{
+	background-image:url('../assets/imgs/background/background03.jpg');
+	background-size:cover;
+}
+#suggest-04{
+	background-image:url('../assets/imgs/background/background04.jpg');
+	background-size:cover;
+}
+#suggest-05{
+	background-image:url('../assets/imgs/background/background05.jpg');
+	background-size:cover;
+}
+#suggest-06{
+	background-image:url('../assets/imgs/background/background06.jpg');
+	background-size:cover;
+}
+#suggest-07{
+	background-image:url('../assets/imgs/background/background07.jpg');
+	background-size:cover;
+}
+
+.suggestion {
+	width: 120px;
+	height: 60px;
+	display: inline-block;
+	margin: 10px 15px;
+	border-radius: 10px;
+	color:#fff;
+	text-align: center;
+	font-family: sans-serif;
+  text-shadow: 2px;
+	box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.30)
+
+}
+
+.suggestion:hover {
+    border-radius: 10px;
+    transform: scale(1.025);
+    box-shadow: 2px 4px 2px 2px rgba(0,0,0,0.55);
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1300px;
+    -webkit-column-width: 250px;
+    -moz-column-width: 250px;
+    column-width: 250px;
+    -webkit-column-gap: 5px;
+    -moz-column-gap: 5px;
+    column-gap: 5px;
+    margin: 0 auto;
+}
+.card {
+    break-inside: avoid;
+    width: 244px;
+    padding-top: 15px;
+    margin: 10px 2px;
+}
+.card:nth-child(2n+1) {
+    min-height: 500px;
+}
+.card:nth-child(2n) {
+    min-height: 450px;
+}
+.card:nth-child(3n-1) {
+    min-height: 550px;
+}
+.card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3%;
+}
+.card:hover {
+    border-radius: 3%;
+    background-color: #efefef;
+    cursor: zoom-in;
+}
+.meta {
+    margin: 5px 20px;
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: space-between;
+}
+.image-info {
+    width: 130px;
+}
+.title {
+    font-weight: 600;
+    color: #313131;
+    font-size: 18px;
+    line-height: 16px;
+}
+.image-source, .common-caption {
+    font-size: 12px;
+    color: #9c9b9b;
+}
+.image-source {
+    font-weight: 600;
+}
+.meta-user {
+    margin: 5px 20px;
+    padding-bottom:10px;
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    font-size: 16px;
+    justify-content: space-between;
+    color: #696666;
+}
+.user {
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: flex-start;
+}
+.actions {
+    font-size: 8px;
+    color: #9c9b9b;
+}
+.meta-user h4, h5 {
+    margin: 0px 5px;
+    line-height: 14px;
+}
+.profile-image img {
+    border-radius: 50%;
+}
+.pins i.fa, .pins {
+    font-size: 12px;
+    color: #9c9b9b;
+}
+.pins i.fa {
+    margin-right: 3px;
+}
+.description {
+    line-height: 16px;
+}
+.title, .description, .image-source, .common-caption {
+    padding: 5px 0px;
+}
+.image-holder {
+    position: relative;
+}
+.save-btn i.fa {
+    margin-right: 5px;
+    color: #efefef;
+    font-size: 15px;
+}
+button.save-btn {
+    position: absolute;
+    background-color: #bd081c;
+    color: #efefef;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    line-height: 10px;
+    right: 20px;
+    top: 10px;
+    font-weight: 600;
+    display: none;
+}
+.card:hover button {
+    display: inline-block;
+}
